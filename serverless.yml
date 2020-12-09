@@ -6,7 +6,7 @@ inputs:
   name: scf-lumen
   src: ./
   description: scf-lumen-template
-  handler: qcloudfunc.main_handler
+  handler: sls.main_handler
   runtime: Php7
   region: ap-shanghai
   memorySize: 64
